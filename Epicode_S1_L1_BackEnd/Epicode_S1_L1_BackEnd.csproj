@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Atleta.cs" />
-    <Compile Include="Studente.cs" />
+    <Compile Include="Class\Atleta.cs" />
+    <Compile Include="Class\Studente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,5 +6,10 @@ namespace Epicode_S1_L1_BackEnd
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            Atleta atleta = new Atleta();
+            atleta.StartAtleta();
+        }
     }
 }

@@ -34,28 +34,6 @@ namespace Epicode_S1_L1_BackEnd
             Console.WriteLine($"Matricola: {Matricola}");
             Console.WriteLine($"Corso di studi: {CorsoDiStudi}");
         }
-
-
-        internal class ProgrammaStudente
-        {
-            static void Main(string[] args)
-            {
-
-                Studente studente = new Studente();
-
-                studente.Nome = "Mario";
-                studente.Cognome = "Rossi";
-                studente.Eta = 22;
-                studente.Matricola = 82002;
-                studente.CorsoDiStudi = "Economia Aziendale";
-
-                studente.CorsoStudi(studente.CorsoDiStudi);
-                studente.Studia(8);
-                studente.PrendiVoti("30 e lode");
-                studente.CambiaCorso("Ingegneria Informatica");
-                studente.VisualizzaInfo();
-            }
-        }
     }
 }
 
