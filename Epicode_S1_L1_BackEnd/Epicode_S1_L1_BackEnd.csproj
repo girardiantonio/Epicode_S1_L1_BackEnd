@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Atleta.cs" />
+    <Compile Include="Class\Animale.cs" />
+    <Compile Include="Class\Dipendente.cs" />
+    <Compile Include="Class\Film.cs" />
     <Compile Include="Class\Studente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

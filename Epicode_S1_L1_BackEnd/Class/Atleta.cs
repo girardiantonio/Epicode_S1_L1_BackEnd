@@ -4,15 +4,15 @@ namespace Epicode_S1_L1_BackEnd
 {
     internal class Atleta
     {
-        public string Nome { get; set; }
-        public string Cognome { get; set; }
-        public int Eta { get; set; }
-        public string Sport { get; set; }
-        public string Nazionalita { get; set; }
+        private string Nome { get; set; }
+        private string Cognome { get; set; }
+        private int Eta { get; set; }
+        private string Sport { get; set; }
+        private string Nazionalita { get; set; }
 
-        private void Allenarsi(string correnteSport)
+        private void Allenarsi()
         {
-            Console.WriteLine($"{Nome} si sta allenando per il suo sport: {correnteSport}");
+            Console.WriteLine($"{Nome} si sta allenando per il suo sport: {Sport}");
         }
         private void PartecipaCompetizione(string competizione)
         {
@@ -45,7 +45,7 @@ namespace Epicode_S1_L1_BackEnd
             calciatore.Sport = "Calciatore";
             calciatore.Nazionalita = "Italiana";
 
-            calciatore.Allenarsi(calciatore.Sport);
+            calciatore.Allenarsi();
             calciatore.PartecipaCompetizione("Campionato Italiano");
             calciatore.Stipendio(2000);
             calciatore.CambioSport("Tennis");
